@@ -13,7 +13,7 @@ API_ID = int(getenv("API_ID", "24274375"))
 API_HASH = getenv("API_HASH", "9d88affc9ab571a6695e069cef5d363b")
 # ------------------------------------------------------
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7369094787:AAFklCdmzXLY98ly6hvUiByY81-6F0T8fRU")
+BOT_TOKEN = getenv("BOT_TOKEN", "7369094787:AAEJzoTwkRAtlvQHZYj_fJ7m46kVf0Id504")
 
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Mr_king008")
