@@ -13,7 +13,7 @@ API_ID = int(getenv("API_ID", "24274375"))
 API_HASH = getenv("API_HASH", "9d88affc9ab571a6695e069cef5d363b")
 # ------------------------------------------------------
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7369094787:AAH1rQOeptmypHykuazxPLZ0YtTyAAKUDAQ")
+BOT_TOKEN = getenv("BOT_TOKEN", "7369094787:AAEjQVwM5FMpHbEZ-ywe0_HKFLCaegbyvcU")
 
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Mr_king008")
@@ -116,7 +116,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQEk7oIAqwh4kRkVHOb4zb1zrcqeMGISODv0ZEAvyJzmAObrxX-xU6b0f2yWvOtCsf-2kWfIF407B49Uv6TI52gHQca88mix_i6KQt84LkAZjUaIyE_qKw550vqXx2B3kU7n8aDQG5iVypprgouUgw6XXDw9q0ewRf2Bqacc795lWLkaGatQXC_wd0v6yY_1NdcF0pxDQaWU6nz1If2Zkzf-l9Ee_72Jwulbd4mGOJpAvcUPflvWCpLckcVV5VyPik4nC0-ZDeNixfBhGN6JKDJI8DP6UYBc1TM7Rq-ON1nQNHlJT9wIq-DzBxH55EJM5gS4F9qHXGLn5p2zpdCFqiT86KtWTwAAAAGxvKp8AA")
+STRING1 = getenv("STRING_SESSION", "BQEk7oIAlB5VgL_Yy5-hrpL9vR2NeoszHgWQfzrC8v_9cXfQrlkR5h_gmdSHP3rCF1Lnix5W1l0H_HsvuMwxa_49sG9WoVOj85IdPliAOUlYBlFIdQb74fWDJsTmrkR1Twq3iIyBKpzJ2hxGaiig3DUI4U-Qn0gfqS4bjC0DwMBnpPliszST3D7omsiyBEmwAV7oj02LsQHhBn1Kq5llxGApWt7iuxLsARMtQCyqjEc1soEm8cotjcXFyLdoEPhaCS3tf83AxzWD17vEJ0Ye0YSxQoVUxMKTsnSbcf7IUYLtbBdur2hKuvk5mByS-X1Fxno4KeIeLp8uK4pFBkwkGjpc-aeQAAAAGxvKp8AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
