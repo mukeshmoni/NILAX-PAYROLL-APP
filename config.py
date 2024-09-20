@@ -13,7 +13,7 @@ API_ID = int(getenv("API_ID", "24274375"))
 API_HASH = getenv("API_HASH", "9d88affc9ab571a6695e069cef5d363b")
 # ------------------------------------------------------
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7369094787:AAE4YCFiTr5eycR7LgqEvYVrvWS02Vj5ErM")
+BOT_TOKEN = getenv("BOT_TOKEN", "7369094787:AAFLFFcd4pQlyQ7ijibRYW1-H81f9Hj1D5M")
 
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Mr_king008")
@@ -28,7 +28,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "Salim0204")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mukeshnitttr1626:mukeshmoninitttr1626@cluster0.e27s9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mukeshmonidb:mukeshmoni@cluster0.e27s9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
