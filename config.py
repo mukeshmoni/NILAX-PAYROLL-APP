@@ -13,7 +13,7 @@ API_ID = int(getenv("API_ID", "24274375"))
 API_HASH = getenv("API_HASH", "9d88affc9ab571a6695e069cef5d363b")
 # ------------------------------------------------------
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7369094787:AAGyj1UX0fK85dt5j02lNPk6jQJxsAC_Yko")
+BOT_TOKEN = getenv("BOT_TOKEN", "7369094787:AAHrSNzbq6ZmGm8pnPiD8hAo273I4pBIDco")
 
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Mr_king008")
@@ -28,7 +28,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "Salim0204")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://moniee:moniee@cluster0.cei6n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://vps11:vps11@cluster0.y18vnlf.mongodb.net/?retryWrites=true&w=majority")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -117,7 +117,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQEk7oIAUhbBUXE26FZOuubNMF-gaKezmoZRMqw_qolv_HikpURZ0Xz3cH32Dzvwvslzp7u9OYcIOu89SaZqMspkeVAaOX05STG934e-VCDNaKtjfnM7wA_suHLtQvYjQ0qV3do9yLD8m2faBUQA6sZRTMx8gx9rxhMaK-_iTNqT2cdylGBhT6Z-kIBDQEUsEh0WVADHesZVRHLoeDOBuWmepqdVqr2kgcizmJ4NTPa_VfDxKR4a7t2fTr6RqKO3sxmv0-1a_Qn8j1uyrmOWJyabOSWuihe1ZxAtru0bUw4GSTL7NDe7muych_8iFMLZjRQ5tCsq8pFiBLhIm_arW-RCQsJzVQAAAAGtqXUcAA")
+STRING1 = getenv("STRING_SESSION", "BQEk7oIAkkztOxRaLEzX1dX_bqOQRkeMDgQpHSfq8Taj-A38c_gGwyXMn47U6g1JANg6DP9C30WYBwdXOBS2qtek5R_gx1PLkGLQzPDh5KiWXHEnE-jT6scDEexiHBEWMLr5DhDGbozhyLnPZNtI3Dvg7J9fc5QfMXQaGLeYtH-wr9ys4CIA0KDKQO9SJn9qTXjKYV4qV6lVuYGc5T6tOse7jIaOpEm3ei0P9lpeo7PyCUj4LEgpJdeQrvJq4ErhN_Y5zy_hq1gTQTIsK3laKclswwOBt-CB-PJZQAbBlv8BmzRmTuGw9gK5hPsk6j_6Rcvmip6vVlbJ61Us9joIbET4V2r3XQAAAAGtqXUcAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
