@@ -20,7 +20,7 @@ OWNER_USERNAME = getenv("OWNER_USERNAME", "Mr_king008")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "Kanazhagi_bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "ꞏ─𓆩‌🌼‌⃝⃪👀ᤌᰢᮀᰪᰢᰪഴᤌ᭄آ‌🐾 ⃝")
+BOT_NAME = getenv("BOT_NAME" , "moni")
 # ---------------------------------------------------------
 ASSUSERNAME = getenv("ASSUSERNAME" , "Salim0204")
 # ---------------------------------------------------------
@@ -28,7 +28,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "Salim0204")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://vps11:vps11@cluster0.y18vnlf.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://moniee:moniee@cluster0.cei6n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
