@@ -42,11 +42,11 @@ async def start(_, msg):
           InlineKeyboardButton("💗 ᴅᴘᴢ ᴄʜᴀɴɴᴇʟ 💗", url="https://t.me/TMK_MUSICCHANNEL"),
           ],
 [
-              InlineKeyboardButton("˹ꞏ─𓆩‌🌼‌⃝⃪👀ᤌᰢᮀᰪᰢᰪഴᤌ᭄آ‌🐾 ⃝ ˼ 💗", url=f"@Kanazhagi_bot"),
-              InlineKeyboardButton("︎˹ꞏ─𓆩‌🌼‌⃝⃪👀ᤌᰢᮀᰪᰢᰪഴᤌ᭄آ‌🐾 ⃝ ˼ 💗", url=f"@Kanazhagi_bot"),
+              InlineKeyboardButton("˹ꞏ─𓆩‌🌼‌⃝⃪👀ᤌᰢᮀᰪᰢᰪഴᤌ᭄آ‌🐾 ⃝ ˼ 💗", url=f"@AmmuMusic_bot"),
+              InlineKeyboardButton("︎˹ꞏ─𓆩‌🌼‌⃝⃪👀ᤌᰢᮀᰪᰢᰪഴᤌ᭄آ‌🐾 ⃝ ˼ 💗", url=f"@AmmuMusic_bot"),
               ],
 [
-InlineKeyboardButton("𝐎ᴡɴᴇʀ ♕︎", url=f"https://t.me/Mr_king008"),
+InlineKeyboardButton("𝐎ᴡɴᴇʀ ♕︎", url=f"https://t.me/KingofAtttitude"),
 
         ]]
     
