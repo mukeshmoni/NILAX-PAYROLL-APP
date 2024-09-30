@@ -10,11 +10,11 @@ from typing import Union, Optional
 import random
 
 random_photo = [
-    "img",
-    "img",
-    "img",
-    "img",
-    "img",
+    "< img upload>",
+    "< img upload>",
+    "<img upload>",
+    "<img upload>",
+    "<img uload>",
 ]
 
 # --------------------------------------------------------------------------------- #

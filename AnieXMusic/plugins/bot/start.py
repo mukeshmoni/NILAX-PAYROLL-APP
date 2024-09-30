@@ -29,7 +29,7 @@ from strings import get_string
 YUMI_PICS = [
     "<img upload>",
     "<img upload>",
-    "img upload>",
+    " <img upload>",
 ]
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
