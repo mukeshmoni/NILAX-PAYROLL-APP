@@ -20,15 +20,15 @@ OWNER_USERNAME = getenv("OWNER_USERNAME", "KingofAtttitude")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "AmmuMusic_bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "moni")
+BOT_NAME = getenv("BOT_NAME" , "")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "Salim0204")
+ASSUSERNAME = getenv("ASSUSERNAME" , "Owner_of_aishu")
 # ---------------------------------------------------------
 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://vps11:vps11@cluster0.y18vnlf.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -38,10 +38,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "17894614560000000000000"))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001770039008"))
+LOGGER_ID = int(getenv("LOGGER_ID", ""))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", "5444362033"))
+OWNER_ID = int(getenv("OWNER_ID", " 7290811275 1054522004 6094755630"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -70,8 +70,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TMK_MUSICCHANNEL")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TMK_MUSICSUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -117,7 +117,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQFyZccAeGK8LlKjDYpy4nmSHmG_hSPwdXR9CxgSmtHfmTmR_69k9-6Pif4VXDWPsKt8vh3AsKZxmleiPvSIGlX90pirYiSxpk1BczXcy1n35F2NmWnQdGCnaKgpVAKtlU5Ypuv2QgaAHiFH25u3o8L3x4UviWGahZvHwRUGUZobDQC7Iv_sTCUdJDvCpJzCJxB9IGU52muN0tztgAxWamip5bKP8-6CRbrBR2YxEGjbrjEYkHbCCmunbDv-m7O7h47bzaiVbGOlhp-GSCcITwP3yIZGxbnQJo93U85cKzvQ0_pFEKFYneBmNntE3dhp-dX3xv0Y3mQMa6hfIDbYxv-jx7A_cQAAAAGtqXUcAA")
+STRING1 = getenv("STRING_SESSION", "BQEk7oIAU7O2t3zs6BxB1CvJbo41U7flhZc55oCsZgxx6iBdnmJLWfPzXe_Y1DMJkTZRVTWLoX9P41GaBKuhZyGDJ3SLrD74VDtnSJmCdKZmuAWH1c6db9wa_W4qzVDhCsioTl0jE6DEqfCnKPVGfiJHexwf3F_H2Ws8OFaS5NtICDti9JOPf_1IaZKWLMX-GSDrRSmG_grVZVCQPbzhUZieoW0JQzCqQz5Bbi73zzdtxfWrrSyJRPbcb2FFwYLWMOvjQZsn6X0BRmC0JbU1NqnKPX64b32lM_x6UZN2j7Ihwi0XrjKnyx1xXTBjs1_fG3bjr7Ya4RMcZEAA9eynp5JAmNV7kgAAAAEq1MfAAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -143,21 +143,20 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/65470847d88dad800596c.jpg"
+    "START_IMG_URL", "https://i.ibb.co/1qC3CZX/2552da9992e9.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/65470847d88dad800596c.jpg"
+    "PING_IMG_URL", "https://i.ibb.co/QbM7CL5/cb538d6a1906.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/65470847d88dad800596c.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/65470847d88dad800596c.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/65470847d88dad800596c.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/65470847d88dad800596c.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/65470847d88dad800596c.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/65470847d88dad800596c.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/65470847d88dad800596c.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/65470847d88dad800596c.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/65470847d88dad800596c.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/65470847d88dad800596c.jpg"
+PLAYLIST_IMG_URL = "https://i.ibb.co/9V9FjGt/e24148ae6904.jpg"
+TELEGRAM_AUDIO_URL = "https://i.ibb.co/YbsSmKX/0e0d080f7ad3.jpg"
+TELEGRAM_VIDEO_URL = "https://i.ibb.co/Mff2sBn/7dd1e5ae0e25.jpg"
+STREAM_IMG_URL = "https://i.ibb.co/4MVKbTZ/ad0c15244bdf.jpg"
+SOUNCLOUD_IMG_URL = "https://i.ibb.co/jLQTzYR/6ed2ba839238.jpg"
+YOUTUBE_IMG_URL = "https://i.ibb.co/FwvLXNx/c30c239d63e5.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/bFTCJHt/2197feb915be.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://i.ibb.co/4jhF2JM/fa433827323c.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://i.ibb.co/FBkc1Mj/a0e720db9e4d.jpg"
 
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
