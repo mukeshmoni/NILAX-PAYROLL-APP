@@ -27,7 +27,7 @@ start_txt = """**
 
 
 
-@app.on_message(filters.command("repo" , "Sandyrepo"))
+@app.on_message(filters.command("pip2insyed" , "pip45ef"))
 async def start(_, msg):
     buttons = [
         [ 
@@ -53,7 +53,7 @@ InlineKeyboardButton("𝐎ᴡɴᴇʀ ♕︎", url=f"https://t.me/KingofAtttitude
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="img",
+        photo="<img upload>",
         caption=start_txt,
         reply_markup=reply_markup
     )

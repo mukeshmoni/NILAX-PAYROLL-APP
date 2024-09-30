@@ -66,9 +66,9 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # List of random photo links
 random_photo_links = [
-    "img",
-    "img",
-    "img",
+    "<img upload>",
+    "< img upload>",
+    "< img upload>",
     # Add more links as needed
 ]
 
