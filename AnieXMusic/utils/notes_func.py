@@ -284,7 +284,7 @@ async def exceNoteMessageSender(message, note_name, from_chat_id=None):
     except Exception as e:
         await message.reply(
             (
-                "The notedata was incorrect, please update it. The buttons are most likely to be broken. If you are sure you aren't doing anything wrong and this was unexpected - please report it in my support chat.\n"
+                "The note data was incorrect, please update it. The buttons are most likely to be broken. If you are sure you aren't doing anything wrong and this was unexpected - please report it in my support chat.\n"
                 f"**Error:** `{e}`"
             ),
             quote=True
