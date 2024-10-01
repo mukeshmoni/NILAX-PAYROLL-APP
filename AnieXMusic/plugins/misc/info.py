@@ -12,8 +12,8 @@ import random
 random_photo = [
     "< img upload>",
     "< img upload>",
-    "<img upload>",
-    "<img upload>",
+    "https://i.ibb.co/X4chrXF/b2966cb70f80.jpg",
+    "https://i.ibb.co/X4chrXF/b2966cb70f80.jpg",
     "<img uload>",
 ]
 
