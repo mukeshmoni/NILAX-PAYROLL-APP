@@ -13,14 +13,14 @@ API_ID = int(getenv("API_ID", "24274375"))
 API_HASH = getenv("API_HASH", "9d88affc9ab571a6695e069cef5d363b")
 # ------------------------------------------------------
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6582609535:AAEThmQCw-LinIK2wm79PANqx2NGOoogtNc")
+BOT_TOKEN = getenv("BOT_TOKEN", "6582609535:AAFpTkuhQiZ-t5wWHUTICICUefJ_H3AbZbE")
 
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME", "KingofAtttitude")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "AmmuMusic_bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "")
+BOT_NAME = getenv("BOT_NAME" , "AmmuMusic")
 # ---------------------------------------------------------
 ASSUSERNAME = getenv("ASSUSERNAME" , "Owner_of_aishu")
 # ---------------------------------------------------------
@@ -28,7 +28,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "Owner_of_aishu")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://moni:monieee@cluster0.cei6n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -38,7 +38,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "17894614560000000000000"))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001886289537"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 OWNER_ID = int(getenv("OWNER_ID", " 7290811275 1054522004 6094755630"))
@@ -70,8 +70,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/teamwednesdayssupportchannel")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/teamwednesdayssupport")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
