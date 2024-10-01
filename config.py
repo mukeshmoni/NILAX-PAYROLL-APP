@@ -13,14 +13,14 @@ API_ID = int(getenv("API_ID", "24274375"))
 API_HASH = getenv("API_HASH", "9d88affc9ab571a6695e069cef5d363b")
 # ------------------------------------------------------
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6582609535:AAFpTkuhQiZ-t5wWHUTICICUefJ_H3AbZbE")
+BOT_TOKEN = getenv("BOT_TOKEN", "6582609535:AAHN3rq5WGW4TxXTaFtxQGrrB4hy8cdSDUY")
 
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME", "KingofAtttitude")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "AmmuMusic_bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "AmmuMusic")
+BOT_NAME = getenv("BOT_NAME" , "─🧛‍♀️།┼⃖𝞈𝝴𝗱𝝶𝝴𝘀𝗱𝝰𝞅 𝗺𝞄𝘀𝝸𝞊 ")
 # ---------------------------------------------------------
 ASSUSERNAME = getenv("ASSUSERNAME" , "Owner_of_aishu")
 # ---------------------------------------------------------
@@ -41,7 +41,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "17894614560000000000000"))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001886289537"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", " 7290811275 1054522004 6094755630"))
+OWNER_ID = int(getenv("OWNER_ID", " 7290811275"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
