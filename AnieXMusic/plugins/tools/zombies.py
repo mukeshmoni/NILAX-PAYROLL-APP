@@ -94,11 +94,11 @@ async def admins(client, message):
     try:
       owner = ownerList[0]
       if owner.username == None:
-        text2 += f"👑 ᴏᴡɴᴇʀ\n└ {owner.mention}\n\n👮🏻 ᴀᴅᴍɪɴs\n"
+        text2 += f" 👑 𝐎ᴡɴᴇʀ 👑\n└ {owner.mention}\n\n👮🏻 ᴀᴅᴍɪɴs\n"
       else:
-        text2 += f"👑 ᴏᴡɴᴇʀ\n└ @{owner.username}\n\n👮🏻 ᴀᴅᴍɪɴs\n"
+        text2 += f" 👑 𝐎ᴡɴᴇʀ 👑\n└ @{owner.username}\n\n👮🏻 ᴀᴅᴍɪɴs\n"
     except:
-      text2 += f"👑 ᴏᴡɴᴇʀ\n└ <i>Hidden</i>\n\n👮🏻 ᴀᴅᴍɪɴs\n"
+      text2 += f" 👑 𝐎ᴡɴᴇʀ 👑\n└ <i>Hidden</i>\n\n👮🏻 ᴀᴅᴍɪɴs\n"
     if len(adminList) == 0:
       text2 += "└ <i>ᴀᴅᴍɪɴs ᴀʀᴇ ʜɪᴅᴅᴇɴ</i>"  
       await app.send_message(message.chat.id, text2)   

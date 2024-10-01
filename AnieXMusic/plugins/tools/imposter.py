@@ -33,9 +33,9 @@ MISHI = [
 ROY = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ",
+            text="✚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🦋",
             url=f"https://t.me/AmmuMusic_bot?startgroup=true"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/KingofAtttitude")
+        InlineKeyboardButton(text="👑 𝐎ᴡɴᴇʀ 👑", url=f"https://t.me/KingofAtttitude")
     ],
 ]
 

@@ -43,7 +43,7 @@ async def init():
         await FIXX.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
         LOGGER("AnieXMusic").error(
-            "ᴘʟᴢ sᴛᴀʀᴛ ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇᴄʜᴀᴛ\ᴄʜᴀɴɴᴇʟ\n\ ᴍᴜsɪᴄ ʙᴏᴛ sᴛᴏᴘ........"
+            "ᴘʟᴢ sᴛᴀʀᴛ ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇᴄʜᴀᴛ\Cʜᴀɴɴᴇʟ\n\ ᴍᴜsɪᴄ ʙᴏᴛ sᴛᴏᴘ........"
         )
         exit()
     except:

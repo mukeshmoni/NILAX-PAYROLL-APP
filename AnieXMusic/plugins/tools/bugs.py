@@ -55,11 +55,11 @@ async def bugs(_, msg: Message):
     if user_id == owner_id:
         if bugs:
             await msg.reply_text(
-                "<b>» ᴀʀᴇ ʏᴏᴜ ᴄᴏᴍᴇᴅʏ ᴍᴇ 🤣, ʏᴏᴜ'ʀᴇ ᴛʜᴇ ᴏᴡɴᴇʀ ᴏғ ᴛʜᴇ ʙᴏᴛ.</b>",
+                "<b>» ᴀʀᴇ ʏᴏᴜ ᴄᴏᴍᴇᴅʏ ᴍᴇ 🤣, ʏᴏᴜ'ʀᴇ ᴛʜᴇ 👑 𝐎ᴡɴᴇʀ 👑ᴏғ ᴛʜᴇ ʙᴏᴛ.</b>",
             )
             return
         else:
-            await msg.reply_text("ᴄʜᴜᴍᴛɪʏᴀ ᴏᴡɴᴇʀ!")
+            await msg.reply_text("👑 𝐎ᴡɴᴇʀ 👑!")
     elif user_id != owner_id:
         if bugs:
             await msg.reply_text(

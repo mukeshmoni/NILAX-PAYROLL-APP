@@ -7,7 +7,7 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """**
-♡︎ ωεℓ¢σмє ƒσя ˹𝙁𝙄𝙓 ✘ 𝙈𝙐𝙎𝙄𝘾 BOT ˼ ♡︎
+♡︎ ωεℓ¢σмє ƒσя ˹𝑴𝑶𝑶𝑵 ✘ 𝙈𝙐𝙎𝙄𝘾 BOT ˼ ♡︎
  
  ✯ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✯
  
@@ -21,7 +21,7 @@ start_txt = """**
  
  ✯ ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ sᴇɴᴅ ss
 
- ✯ MY 𝐎ᴡɴᴇʀ ♕︎ IS Sandy ✯
+ ✯ MY 𝐎ᴡɴᴇʀ ♕︎ IS KingOfAttittude ✯
 **"""
 
 
@@ -34,16 +34,17 @@ async def start(_, msg):
           InlineKeyboardButton("𝐓𝐀𝐏 𝐓𝐎 𝐒𝐄𝐄 𝐘𝐎𝐔𝐒 𝐒𝐄𝐂𝐑𝐄𝐓𝐒 💀", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("❥︎ Gʀᴏᴜᴘ 1 💗🍃", url="https://t.me/TMK_MUSICCHANNEL"),
-          InlineKeyboardButton("❥︎ Gʀᴏᴜᴘ 2 💗🍃", url="https://t.me/TMK_MUSICCHANNEL"),
+          InlineKeyboardButton("🍃 Gʀᴏᴜᴘ 1 🍃", url="https://t.me/https://t.me/teamwednesdayssupportchannel"),
+          
+          InlineKeyboardButton("🍃 Gʀᴏᴜᴘ 2 🍃", url="https://t.me/https://t.me/teamwednesdayssupportchannel"),
           ],
 [
-          InlineKeyboardButton("💗 ᴄʜᴀɴɴᴇʟ 💗", url="https://t.me/TMK_MUSICCHANNEL"),
-          InlineKeyboardButton("💗 ᴅᴘᴢ ᴄʜᴀɴɴᴇʟ 💗", url="https://t.me/TMK_MUSICCHANNEL"),
+          InlineKeyboardButton("💗 Cʜᴀɴɴᴇʟ 💗", url="https://t.me/https://t.me/teamwednesdayssupportchannel"),
+          InlineKeyboardButton("💗 Cʜᴀɴɴᴇʟ 💗", url="https://t.me/https://t.me/teamwednesdayssupportchannel"),
           ],
 [
-              InlineKeyboardButton("˹ꞏ─𓆩‌🌼‌⃝⃪👀ᤌᰢᮀᰪᰢᰪഴᤌ᭄آ‌🐾 ⃝ ˼ 💗", url=f"@AmmuMusic_bot"),
-              InlineKeyboardButton("︎˹ꞏ─𓆩‌🌼‌⃝⃪👀ᤌᰢᮀᰪᰢᰪഴᤌ᭄آ‌🐾 ⃝ ˼ 💗", url=f"@AmmuMusic_bot"),
+              InlineKeyboardButton("˹•─🧛‍♀️།┼⃖𝞈𝝴𝗱𝝶𝝴𝘀𝗱𝝰𝞅 𝗺𝞄𝘀�� || ✨ ˼ ", url=f"@AmmuMusic_bot"),
+              InlineKeyboardButton("︎˹•─🧛‍♀️།┼⃖𝞈𝝴𝗱𝝶𝝴𝘀𝗱𝝰𝞅 𝗺𝞄𝘀�� || ✨ ˼ ", url=f"@AmmuMusic_bot"),
               ],
 [
 InlineKeyboardButton("𝐎ᴡɴᴇʀ ♕︎", url=f"https://t.me/KingofAtttitude"),
@@ -76,7 +77,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/mukeshmoni/AnieMusicbot2.0) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/TMK_MUSICCHANNEL)
+        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/mukeshmoni/AnieMusicbot2.0) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/https://t.me/teamwednesdayssupportchannel)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""

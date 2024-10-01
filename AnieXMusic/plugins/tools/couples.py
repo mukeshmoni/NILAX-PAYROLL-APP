@@ -14,7 +14,7 @@ from AnieXMusic.mongo.couples_db import _get_image, get_couple
 POLICE = [
     [
         InlineKeyboardButton(
-            text="𓊈𒆜彡[ Sandy ]彡𒆜𓊉",
+            text="𓊈𒆜彡[ MONI ]彡𒆜𓊉",
             url=f"https://t.me/KingofAtttitude",
         ),
     ],

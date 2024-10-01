@@ -59,8 +59,8 @@ async def get_client(assistant: int):
 
 async def set_assistant_new(chat_id, number):
     number = int(number)
-    await assdb.update_one(
         {"chat_id": chat_id},
+    await assdb.update_one(
         {"$set": {"assistant": number}},
         upsert=True,
     )
@@ -594,6 +594,9 @@ async def get_sudoers() -> list:
 
 
 async def add_sudo(user_id: int) -> bool:
+    await sudoersdb.update_one(
+        {"sudo": "sudo"}, {"$set": {"sudoers": sudoers}}, upsert=True
+    )
     sudoers = await get_sudoers()
     sudoers.append(user_id)
     await sudoersdb.update_one(
@@ -605,9 +608,6 @@ async def add_sudo(user_id: int) -> bool:
 async def remove_sudo(user_id: int) -> bool:
     sudoers = await get_sudoers()
     sudoers.remove(user_id)
-    await sudoersdb.update_one(
-        {"sudo": "sudo"}, {"$set": {"sudoers": sudoers}}, upsert=True
-    )
     return True
 
 

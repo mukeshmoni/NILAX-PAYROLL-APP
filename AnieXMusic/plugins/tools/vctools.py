@@ -8,19 +8,19 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 # vc on
 @app.on_message(filters.video_chat_started)
 async def brah(_, msg):
-    await msg.reply("**😍ᴠɪᴅᴇᴏ ᴄʜᴀᴛ sᴛᴀʀᴛᴇᴅ🥳/𝘼𝙅𝘼𝙊 𝙎𝘼𝙍𝙀𝙀 𝙑𝘾 𝙈𝘼𝙔 𝘼𝘽 **")
+    await msg.reply("**😍🥰 𝑪𝒉𝒂𝒎𝒂𝒕𝒉𝒖 𝒑𝒖𝒍𝒍𝒂 💕 𝐋𝐨𝐯𝐞 𝐲𝐨𝐮 {}❤️🥳 **")
 
 
 # vc off
 @app.on_message(filters.video_chat_ended)
 async def brah2(_, msg):
-    await msg.reply("**😕ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ᴇɴᴅᴇᴅ💔/ 𝘽𝙔𝙀𝙀 **")
+    await msg.reply("**😕😑 𝐄𝐧𝐧𝐚𝐦𝐚 𝐢𝐩𝐩𝐚𝐝𝐢 𝐩𝐚𝐧𝐫𝐞𝐞𝐧𝐠𝐚𝐥𝐞 𝐦𝐚 😒😒 {}💔  **")
 
 
 # invite members on vc
 @app.on_message(filters.video_chat_members_invited)
 async def brah3(app: app, message: Message):
-    text = f"➻ {message.from_user.mention}\n\n**๏ ɪɴᴠɪᴛɪɴɢ ɪɴ ᴠᴄ ᴛᴏ :**\n\n**➻ **"
+    text = f"➻ {message.from_user.mention}\n\n**๏ 𝒀𝒆𝒏𝒌𝒂𝒂 𝒊𝒓𝒖𝒌𝒂 ❤️  :**\n\n**➻ **"
     x = 0
     for user in message.video_chat_members_invited.users:
         try:
@@ -32,13 +32,13 @@ async def brah3(app: app, message: Message):
     try:
         invite_link = await app.export_chat_invite_link(message.chat.id)
         add_link = f"https://t.me/{app.username}?startgroup=true"
-        reply_text = f"{text} 🤭🤭"
+        reply_text = f"{text} 🥰 𝑪𝒉𝒂𝒎𝒂𝒕𝒉𝒖 𝒑𝒖𝒍𝒍𝒂  𝒀𝒆𝒏𝒈𝒂𝒂 𝒊𝒓𝒖𝒏𝒅𝒂𝒍𝒍𝒖𝒎  𝒐𝒐𝒂𝒅𝒊𝒚𝒂 🙊🙊😂🤭🤭"
 
         await message.reply(
             reply_text,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(text="๏ ᴊᴏɪɴ ᴠᴄ ๏", url=add_link)],
+                    [InlineKeyboardButton(text="🔺 ᴊᴏɪɴ ᴠᴄ 🔻", url=add_link)],
                 ]
             ),
         )
@@ -88,7 +88,7 @@ async def search(event):
                     continue
                 result += f"{title}\n{link}\n\n"
             prev_and_next_btns = [
-                Button.inline("▶️Next▶️", data=f"next {start+10} {event.text.split()[1]}")
+                Button.inline("↗️Next↗️", data=f"next {start+10} {event.text.split()[1]}")
             ]
             await msg.edit(result, link_preview=False, buttons=prev_and_next_btns)
             await session.close()
