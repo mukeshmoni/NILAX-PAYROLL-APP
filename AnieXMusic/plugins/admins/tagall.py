@@ -48,7 +48,7 @@ EMOJI = [ "🦋🦋🦋🦋🦋",
           " 🥬🍉🧁🧇",
         ]
 
-TAGMES = [  "const tags = [
+TAGMES =  [
   "Enna boss, ready ah? 🔥",
   "Thalaivaa, semma speed! 🚀",
   "Nalla sapteengala? 🍛",
