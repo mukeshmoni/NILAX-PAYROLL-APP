@@ -12,7 +12,8 @@ from AnieXMusic.utils.fix_ban import admin_filter
 
 
 Yumikoo_text = [
-"hey please don't disturb me.",
+ "hey please don't disturb me.",
+
 "who are you",
 "who are you",
 "you don't seem to be my owner",
@@ -22,12 +23,22 @@ Yumikoo_text = [
 "hey I am busy",
 "don't you understand?",
 "leave me alone",
-"dude what happened"
+"dude what happened",
+
 ]
 
 strict_txt = [
-"i can't restrict against my besties",
-"are you serious i am not restrict to my friends"
+ "who are you",
+"who are you",
+"you don't seem to be my owner",
+"hey why are you taking my name, let me sleep",
+"yes tell me what work you have",
+"look I am busy right now",
+"hey I am busy",
+"don't you understand?",
+"leave me alone",
+"dude what happened",
+
 ]
 
 
@@ -66,13 +77,13 @@ async def restriction_app(app :app, message):
                     await message.reply(random.choice(strict_txt))          
                 else:
                     await app.ban_chat_member(chat_id, user_id)
-                    await message.reply("veliyaa poda  Nayeee")
+                    await message.reply("ᴠᴇʟɪʏᴀ ᴘᴏᴅᴀ ᴛʜᴀᴍʙɪ")
                     
         for unbanned in data:
             print(f"present {unbanned}")
             if unbanned in unban:
                 await app.unban_chat_member(chat_id, user_id)
-                await message.reply(f"nee yen inamadaaa") 
+                await message.reply(f"ɴᴇᴇ ᴇɴ ᴘᴀɴɢᴀʟɪ ᴅᴀ") 
                 
         for kicked in data:
             print(f"present {kicked}")
@@ -81,7 +92,7 @@ async def restriction_app(app :app, message):
                     await message.reply(random.choice(strict_txt))
                 
                 else:
-                    await app.ban_chat_member(chat_id, user_id)od ko sala Chutiya tha
+                    await app.ban_chat_member(chat_id, user_id)
                     await app.unban_chat_member(chat_id, user_id)
                     await message.reply("get lost! ") 
                     
