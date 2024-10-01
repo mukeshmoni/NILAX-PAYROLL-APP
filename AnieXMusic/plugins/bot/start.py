@@ -27,9 +27,9 @@ from config import BANNED_USERS
 from strings import get_string
 
 YUMI_PICS = [
-    "https://i.ibb.co/vH8P2KJ/16488932ac7e.jpg",
-    "https://i.ibb.co/syG31Ry/5254cb8e7bf7.jpg",
-    "https://i.ibb.co/VSmccjv/d68c56e78480.jpg",
+"https://i.ibb.co/k5nnZzP/3a0638c5d322.jpg",
+"https://i.ibb.co/jLxTp4j/0b368d6e8836.jpg",
+"https://i.ibb.co/vH8P2KJ/16488932ac7e.jpg",
 ]
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
