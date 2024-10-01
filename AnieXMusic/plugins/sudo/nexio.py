@@ -23,7 +23,7 @@ Yumikoo_text = [
 "hey I am busy",
 "don't you understand?",
 "leave me alone",
-"dude what happened,
+"dude what happened",
 
 ]
 
@@ -37,7 +37,7 @@ strict_txt = [
 "hey I am busy",
 "don't you understand?",
 "leave me alone",
-"dude what happened,
+"dude what happened",
 
 ]
 
