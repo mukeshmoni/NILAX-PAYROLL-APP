@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+
+<body>
+  <section id="header">
+    <a href="index.html"><img src="img/logo.png" class="logo" alt=""></a>
+    <div>
+      <ul id="navbar">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li id="lg-bag"><a href="cart.html" style="font-size: 20px;"><i class="far fa-shopping-bag"></i></a><span id="cartFill" style="font-size:11px ; color: rgb(101, 41, 41);"><i class="fa fa-check-circle" aria-hidden="true"></i></span></li>
+       
+        <a href="#" id="close"><i class="far fa-times"></i></a>
+      </ul>
+    </div>
+    <div id="mobile">
+      <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+      <i id="bar" class="fas fa-outdent"></i>
+
+    </div>
+  </section>
+
+  <section id="timer">
+    <p >Sale starts in &nbsp; &nbsp;<span id="hours" style="font-size: 18px; color: rgb(215, 26, 89);">00</span><span style="font-size: 13px;">&nbsp;H &nbsp;&nbsp;:&nbsp;&nbsp;</span><span id="minutes" style="font-size: 18px; color: rgb(215, 26, 89);">00</span><span style="font-size: 13px;">&nbsp; M &nbsp;&nbsp;:&nbsp;&nbsp;</span><span id="seconds" style="font-size: 18px; color:rgb(215, 26, 89);">00</span><span style="font-size: 13px; ">&nbsp;S</span></p>
+  </section>
+
+ <section id="hero" onclick="window.location.href='shop.html'" >
+  <!--- <h4>Trade-in-offer</h4>
+    <h2>Super value deals</h2>
+    <h1>On all products</h1>
+    <p>Save more with coupons & up to 70% off!</p> 
+    <button onclick="window.location.href='shop.html'";>Shop Now</button> -->
+  
+
+
+  </section> 
+
+ <section id="dotssection">
+
+    <span id="slide1" class="dot activeslide" onclick="currentSlide(1)"></span>
+    <span id="slide2" class="dot" onclick="currentSlide(2)"></span>
+    <span id="slide3" class="dot" onclick="currentSlide(3)"></span>
+  
+</section>
+
+  <section class="section-p1" id="feature">
+    <div class="fe-box" onclick="window.location.href='shop.html'">
+      <img src="img/features/n1.webp" alt="">
+      
+
+    </div>
+    <div class="fe-box" onclick="window.location.href='shop.html'">
+      <img src="img/features/n2.webp" alt="">
+      
+
+    </div>
+    <div class="fe-box" onclick="window.location.href='shop.html'">
+      <img src="img/features/n3.webp" alt="">
+      
+
+    </div>
+    <div class="fe-box" onclick="window.location.href='shop.html'">
+      <img src="img/features/n4.webp" alt="">
+      
+
+    </div>
+    <div class="fe-box" onclick="window.location.href='shop.html'">
+      <img src="img/features/n5.webp" alt="">
+      
+
+    </div>
+    <div class="fe-box" onclick="window.location.href='shop.html'">
+      <img src="img/features/n6.webp" alt="">
+      
+
+    </div>
+    <div class="fe-box" onclick="window.location.href='shop.html'">
+      <img src="img/features/n7.webp" alt="">
+    
+
+    </div>
+    <div id="viewInmobile" class="fe-box" onclick="window.location.href='shop.html'" style="display: none;">
+      <img src="img/features/n2.webp" alt="">
+      
+
+    </div>
+    
+
+  </section>
+  
+  <h2 id="deviceSet"style="padding-left:80px ;">Gift Cards</h2>
+  <section style="padding: 35px 80px;" id="giftcard">
+
+    <div class="gif-box" >
+      <img src="img/giftcard/g1.webp" alt="">
+      
+
+    </div>
+    <div class="gif-box" >
+      <img src="img/giftcard/g2.webp" alt="">
+      
+
+    </div>
+    <div class="gif-box" >
+      <img src="img/giftcard/g3.webp" alt="">
+      
+
+    </div>
+    <div class="gif-box" >
+      <img src="img/giftcard/g4.webp" alt="">
+      
+
+    </div>
+    <div class="gif-box" >
+      <img src="img/giftcard/g5.webp" alt="">
+      
+
+    </div>
+    
+    
+    
+
+  </section>
+
+  <section class="section-p1" id="product1">
+    <h2>Featured Products</h2>
+    <p>Winter Collection New Morden Design</p>
+    <div class="pro-container">
+      <div class="pro" onclick="window.location.href='sproduct.html';">
+        <img src="img/products/f1.jpg" alt="" >
+        <div class="des">
+          <span>adidas</span>
+          <h5>T-shirt</h5>
+        
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
